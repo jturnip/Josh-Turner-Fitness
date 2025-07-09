@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact - Josh Turner Fitness</title>
+    <title>Coaching - Josh Turner Fitness</title>
     <link rel="icon" href="icons8-dumbbell-16.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="style.css" />
@@ -24,7 +24,7 @@
 
     <section class="contact-video-section">
       <div class="form-container">
-        <h2>Contact Me</h2>
+        <h2>Get Coaching</h2>
         <form class="contact-form" action="#" method="post">
           <label for="name">Name</label>
           <input
@@ -32,6 +32,15 @@
             id="name"
             name="name"
             placeholder="Your Name"
+            required
+          />
+
+          <label for="phone-number">Phone Number</label>
+          <input
+            type="phone-number"
+            name="phone-number"
+            id="phone-number"
+            placeholder="Your Phone Number"
             required
           />
 
@@ -44,14 +53,12 @@
             required
           />
 
-          <label for="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Your Message"
-            rows="5"
-            required
-          ></textarea>
+          <label for="time">Preferred Time for Call</label>
+          <select required name="time" id="time">
+            <option value="morning">Morning - 8am - 12pm</option>
+            <option value="afternoon">Afternoon - 12pm - 4pm</option>
+            <option value="evening">Evening - 4pm - 8pm</option>
+          </select>
 
           <button type="submit">Send Message</button>
         </form>
