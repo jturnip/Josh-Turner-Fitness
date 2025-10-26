@@ -563,3 +563,32 @@ copyright {
     align-items: center;
   }
 }
+
+.coaching-section {
+  margin-top: 60px;
+  text-align: center;
+  padding: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: larger;
+}
+
+.coaching-section p {
+  margin-top: 10px;
+}
+
+.coaching-left {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.coaching-list {
+  list-style-type: disc;
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.coaching-list li {
+  margin-bottom: 8px;
+}
